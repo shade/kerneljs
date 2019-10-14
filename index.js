@@ -64,7 +64,7 @@ function ApplyKernel(img, kern) {
                 }
 
                 // Update the new image at the appropriate pixel.
-                new_image[mapPoint(X,Y,height,width,channel)] = ~~filtered_value;
+                new_image[mapPoint(X,Y,height,width,channel)] = filtered_value;
             }
         }
     }
